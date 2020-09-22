@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+; Command Prompt
+
+[HKEY_CLASSES_ROOT\Directory\shell\01MenuCmd]
+"MUIVerb"="Eingabeaufforderung"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuCmd"
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\01MenuCmd]
+"MUIVerb"="Eingabeaufforderung"
+"Icon"="cmd.exe"
+"ExtendedSubCommandsKey"="Directory\\ContextMenus\\MenuCmd"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuCmd\shell\open]
+"MUIVerb"="Eingabeaufforderung"
+"Icon"="cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuCmd\shell\open\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuCmd\shell\runas]
+"MUIVerb"="Eingabeaufforderung (Administrator)"
+"Icon"="cmd.exe"
+"HasLUAShield"=""
+
+[HKEY_CLASSES_ROOT\Directory\ContextMenus\MenuCmd\shell\runas\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+; Ensure OS Entries are on the Extended Menu (Shift-Right Click)
+
+[HKEY_CLASSES_ROOT\Directory\shell\cmd]
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\background\shell\cmd]
+"Extended"=""
