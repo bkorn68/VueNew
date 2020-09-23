@@ -12,7 +12,7 @@ Vue.use(VueRouter)
   {
     path: '/login',
     name: 'login',
-    component: () => import('../components/.vue')
+    component: () => import('../components/Login.vue')
   },
   {
     path: '/forgot-password',
