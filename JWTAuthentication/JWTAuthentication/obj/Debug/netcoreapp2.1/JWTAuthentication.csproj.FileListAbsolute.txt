@@ -1,0 +1,16 @@
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\JWTAuthentication.deps.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\JWTAuthentication.runtimeconfig.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\JWTAuthentication.runtimeconfig.dev.json
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\JWTAuthentication.dll
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.csprojAssemblyReference.cache
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.RazorAssemblyInfo.cache
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.RazorAssemblyInfo.cs
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.AssemblyInfoInputs.cache
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.AssemblyInfo.cs
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.RazorTargetAssemblyInfo.cache
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\bin\Debug\netcoreapp2.1\JWTAuthentication.pdb
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.dll
+C:\Users\korn\source\repos\VueNew\JWTAuthentication\JWTAuthentication\obj\Debug\netcoreapp2.1\JWTAuthentication.pdb
