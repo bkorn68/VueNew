@@ -1,0 +1,62 @@
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.exe
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.deps.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.runtimeconfig.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.runtimeconfig.dev.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\ToDoWith LoginAPI.pdb
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.csprojAssemblyReference.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\staticwebassets\ToDoWith LoginAPI.StaticWebAssets.Manifest.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\staticwebassets\ToDoWith LoginAPI.StaticWebAssets.xml
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.AssemblyInfoInputs.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.AssemblyInfo.cs
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.RazorTargetAssemblyInfo.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.pdb
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.exe
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.csproj.CopyComplete
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI\ToDoWith LoginAPI\ToDoWith LoginAPI\obj\Debug\netcoreapp3.0\ToDoWith LoginAPI.MvcApplicationPartsAssemblyInfo.cache
