@@ -1,0 +1,16 @@
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.deps.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.runtimeconfig.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.runtimeconfig.dev.json
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.RazorAssemblyInfo.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.RazorAssemblyInfo.cs
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.AssemblyInfoInputs.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.AssemblyInfo.cs
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.RazorTargetAssemblyInfo.cache
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.pdb
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.dll
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp2.1\ToDoWithLoginAPI.pdb
+C:\Users\korn\source\repos\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp2.1\ToDoWithLoginAPI.xml
