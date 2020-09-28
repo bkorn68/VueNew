@@ -19,7 +19,7 @@ namespace ToDoWithLoginAPI.Models
 
             // Set configuration for columns
 
-            builder.Property(p => p.Id).HasColumnType("int").IsRequired();
+            builder.Property(p => p.Id).HasColumnType("bigint").IsRequired();
             builder.Property(p => p.Name).HasColumnType("nvarchar(50)");
             builder.Property(p => p.EmailAddress).HasColumnType("nvarchar(50)");
             builder.Property(p => p.PasswordHash).HasColumnType("nvarchar(50)");
@@ -28,9 +28,11 @@ namespace ToDoWithLoginAPI.Models
 
             builder
                 .Property(p => p.Id)
-                .HasColumnType("int")
+                .HasColumnType("bigint")
                 .IsRequired()
-                .HasDefaultValueSql("NEXT VALUE FOR [Sequences].[Id]");
+                .ValueGeneratedNever();
+                
+            //.HasDefaultValueSql("NEXT VALUE FOR [Sequences].[Id]");
 
 
         }
