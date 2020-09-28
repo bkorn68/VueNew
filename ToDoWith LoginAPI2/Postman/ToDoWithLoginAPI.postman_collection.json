@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "9edfbd6a-88cd-4e63-8807-793311f04ee9",
+		"name": "ToDoWithLoginAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Values",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/api/values",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"values"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
