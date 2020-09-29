@@ -89,15 +89,28 @@ namespace ToDoWithLoginAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
+
+            //context.Database.OpenConnection();
+            //try
+            //{
+            //    context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT dbo.Employees ON");
+            //    context.SaveChanges();
+            //    context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT dbo.Employees OFF");
+            //}
+            //finally
+            //{
+            //    context.Database.CloseConnection();
+            //}
+
             try
             {
                 _context.TodoItems.Add(todoItem);
                 await _context.SaveChangesAsync();
+
             }
             catch (Exception ex)
             {
                 var aaa = "aaa";
-                throw;
             }
             finally
             {

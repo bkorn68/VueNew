@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -24,13 +25,26 @@ namespace ToDoWithLoginAPI.Models
             builder.Property(p => p.IsCompleted).HasColumnType("bit");
             // Columns with default value
 
+            //builder
+            //    .Property(p => p.Id)
+            //    .HasColumnType("bigint")
+            //    .IsRequired()
+            //.ValueGeneratedNever()
+            //.HasDefaultValueSql("NEXT VALUE FOR [Sequences].[Id]");
+            //builder
+            //    .Property(p => p.Id)
+            //    .HasColumnType("bigint")
+            //    .IsRequired()
+            //    .ValueGeneratedOnAdd()
+            //    .UseSqlServerIdentityColumn()
+            //    .Metadata.BeforeSaveBehavior = PropertySaveBehavior.Ignore;
             builder
                 .Property(p => p.Id)
                 .HasColumnType("bigint")
                 .IsRequired()
-                .ValueGeneratedNever();
+                .ValueGeneratedNever()
+                .Metadata.BeforeSaveBehavior = PropertySaveBehavior.Ignore;
 
-            //.HasDefaultValueSql("NEXT VALUE FOR [Sequences].[Id]")
 
 
         }
