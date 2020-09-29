@@ -54,6 +54,7 @@ namespace ToDoWithLoginAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
+        //TODO BK  check EmailAddress
         public async Task<IActionResult> PutUsers(long id, UsersDTO usersDTO)
         {
             if (id != usersDTO.Id)
@@ -61,6 +62,7 @@ namespace ToDoWithLoginAPI.Controllers
                 return BadRequest();
             }
             Users users = usersDTO.FromDTO();
+
 
             _context.Entry(users).State = EntityState.Modified;
 
@@ -90,6 +92,13 @@ namespace ToDoWithLoginAPI.Controllers
         public async Task<ActionResult<Users>> PostUsers(UsersDTO usersDTO)
         {
             Users users = usersDTO.FromDTO();
+            List<Users> usersList = await _context.Users.ToListAsync();
+            IEnumerable<Users> emailusers = usersList.Where(e => e.EmailAddress == users.EmailAddress);
+            if (emailusers.Count() > 0)
+            {
+                return BadRequest("die Emailadresse ist bereits vergeben");
+            }
+
             _context.Users.Add(users);
             await _context.SaveChangesAsync();
 

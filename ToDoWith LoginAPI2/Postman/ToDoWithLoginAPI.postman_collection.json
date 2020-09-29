@@ -186,7 +186,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 0,\r\n    \"Name\": \"Bernhard Korn\",\r\n    \"EmailAddress\": \"Bkorn@gmx.de\",\r\n    \"Password\": \"Bernhard\"\r\n\r\n}",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"Name\": \"Bernhard Korn2\",\r\n    \"EmailAddress\": \"Bkorn2@gmx.de\",\r\n    \"Password\": \"Bernhard2\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
