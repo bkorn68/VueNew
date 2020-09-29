@@ -1,0 +1,6 @@
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\bin\Debug\cryptoConsole.exe.config
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\bin\Debug\cryptoConsole.exe
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\bin\Debug\cryptoConsole.pdb
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\obj\Debug\cryptoConsole.csprojAssemblyReference.cache
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\obj\Debug\cryptoConsole.exe
+C:\Temp\VueNew\ToDoWith LoginAPI2\cryptoConsole\cryptoConsole\obj\Debug\cryptoConsole.pdb
