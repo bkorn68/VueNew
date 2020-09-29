@@ -41,6 +41,24 @@
 			"response": []
 		},
 		{
+			"name": "get all Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/api/Users",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "get specific TodoItem",
 			"request": {
 				"method": "GET",
@@ -53,6 +71,25 @@
 					"path": [
 						"api",
 						"TodoItems",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get specific User",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/api/Users/1",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Users",
 						"1"
 					]
 				}
@@ -88,13 +125,41 @@
 			"response": []
 		},
 		{
+			"name": "update specific User",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"Bernhard Körn\",\r\n    \"emailAddress\": \"Bkorn@gmx.de\",\r\n    \"password\": \"Bernhard\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/api/Users/1",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "add TodoItem",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 0,\r\n    \"name\": \"new Todo 10\",\r\n    \"isCompleted\": true\r\n}",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"name\": \"new Todo 12\",\r\n    \"isCompleted\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -115,19 +180,65 @@
 			"response": []
 		},
 		{
+			"name": "add User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"Name\": \"Bernhard Korn\",\r\n    \"EmailAddress\": \"Bkorn@gmx.de\",\r\n    \"Password\": \"Bernhard\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/api/Users",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "delete specific TodoItem",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{local_url}}/api/TodoItems/16",
+					"raw": "{{local_url}}/api/TodoItems/1",
 					"host": [
 						"{{local_url}}"
 					],
 					"path": [
 						"api",
 						"TodoItems",
-						"16"
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete specific User",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{local_url}}/api/Users/2",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Users",
+						"2"
 					]
 				}
 			},

@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ToDoWithLoginAPI.Models;
+using ToDoWithLoginAPI.Misc;
+
 
 namespace ToDoWithLoginAPI.Controllers
 {
@@ -22,14 +24,21 @@ namespace ToDoWithLoginAPI.Controllers
 
         // GET: api/Users
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Users>>> GetUsers()
+        public async Task<ActionResult<IEnumerable<UsersDTO>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+            //return _context.Users.ToListAsync().Result.Select(e => e.ToDTO());
+            //return await _context.Users.ToListAsync().Result.Select( e => e.ToDTO());
+            List<Users> users = await _context.Users.ToListAsync();
+            IEnumerable<UsersDTO> usersDTOs = users.Select(e => e.ToDTO());
+            return CreatedAtAction("GetUsers", usersDTOs);
+
+
+
         }
 
         // GET: api/Users/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Users>> GetUsers(long id)
+        public async Task<ActionResult<UsersDTO>> GetUsers(long id)
         {
             var users = await _context.Users.FindAsync(id);
 
@@ -38,19 +47,20 @@ namespace ToDoWithLoginAPI.Controllers
                 return NotFound();
             }
 
-            return users;
+            return users.ToDTO();
         }
 
         // PUT: api/Users/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutUsers(long id, Users users)
+        public async Task<IActionResult> PutUsers(long id, UsersDTO usersDTO)
         {
-            if (id != users.Id)
+            if (id != usersDTO.Id)
             {
                 return BadRequest();
             }
+            Users users = usersDTO.FromDTO();
 
             _context.Entry(users).State = EntityState.Modified;
 
@@ -77,8 +87,9 @@ namespace ToDoWithLoginAPI.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Users>> PostUsers(Users users)
+        public async Task<ActionResult<Users>> PostUsers(UsersDTO usersDTO)
         {
+            Users users = usersDTO.FromDTO();
             _context.Users.Add(users);
             await _context.SaveChangesAsync();
 

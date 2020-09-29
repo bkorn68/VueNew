@@ -15,7 +15,7 @@ namespace ToDoWithLoginAPI.Misc
                 Id = users.Id,
                 Name = users.Name,
                 EmailAddress = users.EmailAddress,
-                Password = CryptographyHelpers.Encrypt(Data.password, Data.salt, users.PasswordHash)
+                Password = CryptographyHelpers.Decrypt(Data.password, Data.salt, users.PasswordHash)
 
             };
 
