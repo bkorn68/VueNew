@@ -143,10 +143,11 @@ C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\ne
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.csprojAssemblyReference.cache
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\staticwebassets\ToDoWithLoginAPI.StaticWebAssets.Manifest.cache
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\staticwebassets\ToDoWithLoginAPI.StaticWebAssets.xml
-C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.AssemblyInfoInputs.cache
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.AssemblyInfo.cs
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.RazorTargetAssemblyInfo.cache
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.csproj.CopyComplete
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.dll
 C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.pdb
+C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Temp\VueNew\ToDoWith LoginAPI2\ToDoWithLoginAPI\ToDoWithLoginAPI\obj\Debug\netcoreapp3.1\ToDoWithLoginAPI.MvcApplicationPartsAssemblyInfo.cache

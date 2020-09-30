@@ -8,8 +8,24 @@
 		{
 			"name": "get WeatherForecast",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
 				"url": {
 					"raw": "{{local_url}}/WeatherForecast",
 					"host": [
@@ -186,7 +202,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 0,\r\n    \"Name\": \"Bernhard Korn2\",\r\n    \"EmailAddress\": \"Bkorn2@gmx.de\",\r\n    \"Password\": \"Bernhard2\"\r\n\r\n}",
+					"raw": "{\r\n    \"id\": 0,\r\n    \"Name\": \"Bernhard Korn\",\r\n    \"EmailAddress\": \"Bkorn2@gmx.de\",\r\n    \"Password\": \"Bernhard\"\r\n\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -239,6 +255,48 @@
 						"api",
 						"Users",
 						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "0f92ee07-d2af-4c36-b843-a301cce3c74e",
+						"exec": [
+							"\r",
+							"\r",
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setEnvironmentVariable(\"token\", jsonData.token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"EmailAddress\": \"Bkorn2@gmx.de\",\r\n    \"Password\": \"Bernhard\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{local_url}}/api/Login",
+					"host": [
+						"{{local_url}}"
+					],
+					"path": [
+						"api",
+						"Login"
 					]
 				}
 			},

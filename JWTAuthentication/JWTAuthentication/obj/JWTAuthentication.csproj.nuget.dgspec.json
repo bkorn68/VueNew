@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korn\\source\\repos\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {}
+    "C:\\Temp\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korn\\source\\repos\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {
+    "C:\\Temp\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korn\\source\\repos\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
+        "projectUniqueName": "C:\\Temp\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
         "projectName": "JWTAuthentication",
-        "projectPath": "C:\\Users\\korn\\source\\repos\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
-        "packagesPath": "C:\\Users\\korn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korn\\source\\repos\\VueNew\\JWTAuthentication\\JWTAuthentication\\obj\\",
+        "projectPath": "C:\\Temp\\VueNew\\JWTAuthentication\\JWTAuthentication\\JWTAuthentication.csproj",
+        "packagesPath": "C:\\Users\\b.korn\\.nuget\\packages\\",
+        "outputPath": "C:\\Temp\\VueNew\\JWTAuthentication\\JWTAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\korn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\b.korn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -75,7 +75,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

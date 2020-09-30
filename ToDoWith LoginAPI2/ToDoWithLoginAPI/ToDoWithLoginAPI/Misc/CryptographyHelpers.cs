@@ -19,6 +19,7 @@ namespace ToDoWithLoginAPI.Misc
                 var keys = GetAesKeyAndIV(password, salt, aes);
                 aes.Key = keys.Item1;
                 aes.IV = keys.Item2;
+                //aes.Padding = PaddingMode.None;
 
                 //create a decryptor to perform the stream transform.
                 var decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
@@ -48,6 +49,7 @@ namespace ToDoWithLoginAPI.Misc
                 var keys = GetAesKeyAndIV(password, salt, aes);
                 aes.Key = keys.Item1;
                 aes.IV = keys.Item2;
+                //aes.Padding = PaddingMode.None;
 
                 var encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
 
