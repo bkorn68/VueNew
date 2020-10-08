@@ -1,15 +1,61 @@
+
 <template>
-    <div>
-
-    </div>
+  <div>
+    <h1>Login</h1>
+    <input type="text" placeholder="Username" v-model="loginname" />
+    <input type="text" placeholder="Password" v-model="password" />
+    <input type="button" @click="login" value="Login" />
+    <p v-if="msg">{{ msg }}</p>
+  </div>
 </template>
-
 <script>
-    export default {
-        name: 'Login',
+import AuthService from '@/services/AuthService.js';
+
+export default {
+  data() {
+    return {
+      pwtoken: '',
+      loginname: '',
+      password: '',
+      environment: 1,
+      msg: ''
+    };
+  },
+  methods: {
+    async login() {
+      try {
+        const credentials = {
+          pwtoken: this.pwtoken,
+          loginname: this.loginname,
+          password: this.password,
+          environment: this.environment
+        };
+        const response = await AuthService.login(credentials);
+       
+        
+
+
+        const ident = response;
+        console.log('Ident');
+        console.log(ident);
+        const token = response.token;
+        console.log('token');
+        console.log(token);
+              const mandatorId = response.mandatorIds[0];
+
+              // const mandatorId = 1;
+              console.log('mandatorId');
+        console.log(mandatorId);
+
+        this.$store.dispatch('login', {ident, token, mandatorId });
+        this.msg = 'Anmeldung erfolgreich';
+
+        // this.$router.push('/');
+      } catch (error) {
+        console.log(error);
+        this.msg = 'Anmeldung fehlgeschlagen';
+      }
     }
+  }
+};
 </script>
-
-<style lang="scss" scoped>
-
-</style>

@@ -1,4 +1,3 @@
-// src/store.js (Vue CLI 1.x & 2.x) oder src/store/index.js (Vue CLI 3.x oder neuer)
 
 import Vue from 'vue';
 import Vuex from 'vuex';
@@ -9,8 +8,9 @@ Vue.use(Vuex);
 
 const getDefaultState = () => {
   return {
+    ident: {},
     token: '',
-    user: {}
+    mandatorId: 1
   };
 };
 
@@ -22,25 +22,36 @@ export default new Vuex.Store({
     isLoggedIn: state => {
       return state.token;
     },
-    getUser: state => {
-      return state.user;
+    getIdent: state => {
+      return state.ident;
+    },
+    getMandatorId: state => {
+      return state.mandatorId;
     }
   },
   mutations: {
+    SET_IDENT: (state, ident) => {
+      state.ident = ident;
+      console.log("ident stored");
+    },
     SET_TOKEN: (state, token) => {
       state.token = token;
+      console.log("token stored");
     },
-    SET_USER: (state, user) => {
-      state.user = user;
+    SET_MANDATORID: (state, mandatorId) => {
+      state.mandatorId = mandatorId;
+      console.log("mandatorId stored");
     },
     RESET: state => {
       Object.assign(state, getDefaultState());
     }
   },
   actions: {
-    login: ({ commit, dispatch }, { token, user }) => {
+    login: ({ commit, dispatch }, { ident, token, mandatorId }) => {
+      
+      commit('SET_IDENT', ident);
       commit('SET_TOKEN', token);
-      commit('SET_USER', user);
+      commit('SET_MANDATORID', mandatorId);
 
       // set auth header
       Axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
