@@ -55,6 +55,9 @@
       {
           console.log("getTours is not yet implemented");
       }
+  },
+  created: function () {
+    this.selectedDate = new Date().format('YYYY-MM-DD');
   }
     }
 </script>
