@@ -21,7 +21,7 @@ export default new Vuex.Store({
   state: getDefaultState(),
   getters: {
     isLoggedIn: state => {
-      return state.ident;
+      return (state.ident);
     },
     getIdent: state => {
       return state.ident;

@@ -2,8 +2,14 @@
 <template>
   <div>
     <h2>Login</h2>
-    <input type="text" placeholder="Username" v-model="loginname" />
-    <input type="text" placeholder="Password" v-model="password" />
+    <div>
+      <label>Benutzername</label>
+      <input type="text" placeholder="Username" v-model="loginname" />
+    </div>
+    <div>
+      <label>Kennwort</label>
+      <input type="text" placeholder="Password" v-model="password" />
+    </div>   
     <input type="button" @click="login" value="Login" />
     <p v-if="msg">{{ msg }}</p>
   </div>
@@ -49,10 +55,10 @@ export default {
 
         this.$store.dispatch('login', {ident, token, mandatorId });
 
-        this.$router.push('/technicianSelection');
+        this.$router.push('/tour');
       } catch (error) {
         console.log(error);
-        this.msg = 'Anmeldung fehlgeschlagen';
+        this.msg = 'Login fehlgeschlagen';
       }
     }
   }

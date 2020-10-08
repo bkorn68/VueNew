@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 
-import TechnicianSelection from '../views/TechnicianSelection.vue'
+import Tour from '../views/Tour.vue'
 
 
 Vue.use(VueRouter)
@@ -21,9 +21,9 @@ const routes = [
   },
   
   {
-    path: "/technicianSelection",
-    name: "technicianSelection",
-    component: TechnicianSelection
+    path: "/tour",
+    name: "tour",
+    component: Tour
   }
 ]
 
