@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <h1>Login</h1>
+    <h2>Login</h2>
     <input type="text" placeholder="Username" v-model="loginname" />
     <input type="text" placeholder="Password" v-model="password" />
     <input type="button" @click="login" value="Login" />
@@ -48,9 +48,8 @@ export default {
         console.log(mandatorId);
 
         this.$store.dispatch('login', {ident, token, mandatorId });
-        this.msg = 'Anmeldung erfolgreich';
 
-        // this.$router.push('/');
+        this.$router.push('/technicianSelection');
       } catch (error) {
         console.log(error);
         this.msg = 'Anmeldung fehlgeschlagen';

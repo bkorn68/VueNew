@@ -2,11 +2,30 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/login">Login</router-link>
+      <router-link v-show="!isLoggedIn" to="/login">Login</router-link> 
+      <span v-if="isLoggedIn"> | <a class="clickable" @click="logout">Logout</a></span>
     </div>
+    <h1>TOView</h1>
+    <img alt="Vue logo" src="./assets/buologo.jpg">
     <router-view/>
   </div>
 </template>
+<script>
+  export default {
+    computed : {
+      isLoggedIn : function(){ return this.$store.getters.isLoggedIn}
+    },
+    methods: {
+      logout: function () {
+        this.$store.dispatch('logout')
+        .then(() => {
+          this.$router.push('/login')
+        })
+      }
+    }
+    
+  }
+</script>
 
 <style>
 #app {
@@ -29,4 +48,8 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+a.clickable{
+       cursor: pointer;
+       cursor: hand;
+   }
 </style>

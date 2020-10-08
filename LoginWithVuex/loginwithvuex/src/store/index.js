@@ -8,9 +8,10 @@ Vue.use(Vuex);
 
 const getDefaultState = () => {
   return {
-    ident: {},
+    ident: '',
     token: '',
     mandatorId: 1
+
   };
 };
 
@@ -20,7 +21,7 @@ export default new Vuex.Store({
   state: getDefaultState(),
   getters: {
     isLoggedIn: state => {
-      return state.token;
+      return state.ident;
     },
     getIdent: state => {
       return state.ident;
@@ -33,6 +34,7 @@ export default new Vuex.Store({
     SET_IDENT: (state, ident) => {
       state.ident = ident;
       console.log("ident stored");
+
     },
     SET_TOKEN: (state, token) => {
       state.token = token;

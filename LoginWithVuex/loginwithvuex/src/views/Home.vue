@@ -1,17 +1,18 @@
-<template>
-  <div class="home">
-    <h5>TOView</h5>
-    <img alt="Vue logo" src="../assets/buologo.jpg">
+// src/views/Home.vue
 
+<template>
+  <div>
   </div>
 </template>
 
 <script>
 
-
-
 export default {
-  name: 'Home'
+  async created() {
+    if (!this.$store.getters.isLoggedIn) {
+      this.$router.push('/login');
+    }
 
-}
+  },
+};
 </script>
