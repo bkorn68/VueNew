@@ -2,9 +2,10 @@
 import axios from 'axios';
 
 const url = 'http://localhost:56452/api/';
-//{{local_url}}/api/Technicians
-const techniciansUrl = url + 'Technicians';
-//{{local_url}}/api/Tours
+
+// const techniciansUrl = url + 'Technicians';
+const techniciansUrl = 'https://bodega-live.servicebus.windows.net/bodegaGemasMasterdata/rest/GetTechnicians'
+
 const toursUrl = url + 'Tours';
 
 export default {
