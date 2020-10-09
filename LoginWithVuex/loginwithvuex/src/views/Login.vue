@@ -1,6 +1,7 @@
 
 <template>
   <div>
+    
     <h2>Login</h2>
     <div class="container">
     <label for="uname"><b>Benutzername</b></label>
@@ -10,6 +11,7 @@
     <input type="password" placeholder="Kennwort eingeben" name="password" v-model="password" required>
 
     <button type="submit" @click="login">Login</button>
+    <GridLoader :loading="this.Loading" size="15"  ></GridLoader>
     
   </div>
     <p v-if="msg">{{ msg }}</p>
@@ -17,6 +19,7 @@
 </template>
 <script>
 import AuthService from '@/services/AuthService.js';
+import { GridLoader } from '@saeris/vue-spinners'
 
 export default {
   data() {
@@ -25,8 +28,12 @@ export default {
       loginname: '',
       password: '',
       environment: 1,
-      msg: ''
+      msg: '',
+      Loading: false
     };
+  },
+  components: {
+    GridLoader
   },
   methods: {
     async login() {
@@ -37,6 +44,7 @@ export default {
           password: this.password,
           environment: this.environment
         };
+        this.Loading = true;
         const response = await AuthService.login(credentials);
        
         
@@ -53,12 +61,14 @@ export default {
               // const mandatorId = 1;
               console.log('mandatorId');
         console.log(mandatorId);
+        this.Loading = false;;
 
         this.$store.dispatch('login', {ident, token, mandatorId });
 
         this.$router.push('/tour');
       } catch (error) {
         console.log(error);
+        this.Loading = false;
         this.msg = 'Login fehlgeschlagen';
       }
     }
@@ -102,5 +112,8 @@ padding-left: 560px;
   padding-right: 560px;
 vertical-align: middle;
   
+}
+GridLoader {
+  vertical-align: center;
 }
 </style>
