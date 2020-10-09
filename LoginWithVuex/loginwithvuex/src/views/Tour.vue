@@ -44,7 +44,8 @@ import TourList from "../components/TourList"
       environment: 1,
       msg: 'Lade Monteure...',
       tourList: [],
-      toursfound: false
+      toursfound: false,
+      googleURL: ''
       
     }
   },
@@ -98,7 +99,18 @@ import TourList from "../components/TourList"
       },
       showGoogle()
       {
-        console.log("showGoogle noch nicht implementiert.")
+        
+        this.googleURL = 'https://www.google.de/maps/dir';
+        this.tourList.forEach(tour => 
+        {
+          this.googleURL = this.googleURL + '/' + tour.geoLatitude + ',' + tour.geoLongitude;
+        }
+        
+        );
+        console.log('GoogleUrl:');
+        console.log(this.googleURL);
+        window.location.href = this.googleURL;
+        
       }
   },
   async created() {
