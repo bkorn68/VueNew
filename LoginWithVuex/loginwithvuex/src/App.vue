@@ -23,6 +23,10 @@
           this.$router.push('/login')
         })
       }
+    },
+    created()
+    {
+      this.$store.dispatch('resetstore');
     }
     
   }

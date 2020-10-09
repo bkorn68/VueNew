@@ -67,6 +67,10 @@ export default new Vuex.Store({
     },
     logout: ({ commit }) => {
       commit('RESET', '');
+    },
+    resetstore: ({ commit }) => {
+      commit('RESET', '');
     }
   }
-});
+  }
+);

@@ -61,8 +61,6 @@ import TOService from '@/services/TOService.js';
       const request = {
            ident: this.$store.getters.getIdent,
            mandatorId: this.$store.getters.getMandatorId,
-           skip: 0,
-           take: 100,
            environment: this.environment
          };
          console.log("Request:");
