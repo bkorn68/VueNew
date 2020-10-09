@@ -29,28 +29,14 @@ import TOService from '@/services/TOService.js';
     data() {
     return {
       technichians: [
-          {
-              "name": "Bernhard Korn",
-              "sourceId": 12345
-          },
-          {
-              "name": "Hendrik Kokulinsky",
-              "sourceId": 23456
-          },
-          {
-              "name": "Wolfgang Lorenz",
-              "sourceId": 34567
-          }
       ],
       //10925
       selectedTechnichian: {
-              "name": "Bernhard Korn",
-              "sourceId": 12345
           },
       
       selectedDate: '2020-10-01',
       environment: 1,
-      msg: '',
+      msg: 'Lade Monteure...',
       tours: []
       
     }
@@ -61,6 +47,7 @@ import TOService from '@/services/TOService.js';
         try
         {
          console.log("Start getTours")
+         this.msg = 'ermittel Touren';
          const date = new Date(this.selectedDate);
          const jsonDate = date.toJSON();
 
@@ -114,6 +101,7 @@ import TOService from '@/services/TOService.js';
          let count = techs.length;
          this.technichians = techs;
          this.msg = count + ' Monteuere gefunden';
+
          
     }
     catch(error)
