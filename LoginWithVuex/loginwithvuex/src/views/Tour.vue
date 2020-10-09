@@ -18,6 +18,8 @@
     <button type="submit" @click="getTours">Touren</button>
     <p v-if="msg">{{ msg }}</p>
     <TourList v-bind:tourList="tourList" v-if="this.toursfound" />
+    <button type="submit" @click="showGoogle" v-if="this.toursfound" >Google</button>
+    
     
   </div>
   
@@ -51,7 +53,7 @@ import TourList from "../components/TourList"
   },
   methods: {
       async getTours()
-      {
+        {
         try
         {
          this.toursfound = false;
@@ -93,6 +95,10 @@ import TourList from "../components/TourList"
     }
      
 
+      },
+      showGoogle()
+      {
+        console.log("showGoogle noch nicht implementiert.")
       }
   },
   async created() {
