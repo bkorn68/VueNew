@@ -4,7 +4,8 @@ import axios from 'axios';
 const url = 'http://localhost:56452/api/';
 //{{local_url}}/api/Technicians
 const techniciansUrl = url + 'Technicians';
-
+//{{local_url}}/api/Tours
+const toursUrl = url + 'Tours';
 
 export default {
     getTechnicians(request) {
@@ -12,8 +13,10 @@ export default {
       .post(techniciansUrl, request)
       .then(response => response.data);
   },
-  logTechniciansUrl()
-  {
-      console.log("TechniciansUrl:" + techniciansUrl);
+  getTours(request) {
+    return axios
+      .post(toursUrl, request)
+      .then(response => response.data);
   }
+
 }

@@ -3,11 +3,13 @@
     <h2>Login</h2>
     <div class="container">
     <label for="uname"><b>Monteur</b></label>
-    <select v-model="selectedSourceID">
-  <option v-for="technichian in technichians" v-bind:value="technichian.SourceID">
-    {{technichian.name + '[' + technichian.sourceId + ']' }}
-  </option>
+    <select v-model="selectedTechnichian">
+    <option v-bind:value="{name: technichian.name,sourceId: technichian.sourceId}" v-for="technichian in technichians">
+      {{technichian.name + '[' + technichian.sourceId + ']' }}
+      </option>
+
 </select>
+
 
     <label for="psw"><b>Tag</b></label>
     <input type="date" v-model="selectedDate" />
@@ -40,20 +42,61 @@ import TOService from '@/services/TOService.js';
               "sourceId": 34567
           }
       ],
-      selectedSourceID: '12345',
-      selectedDate: '2017-07-04',
+      //10925
+      selectedTechnichian: {
+              "name": "Bernhard Korn",
+              "sourceId": 12345
+          },
+      
+      selectedDate: '2020-10-01',
       environment: 1,
-      msg: ''
+      msg: '',
+      tours: []
       
     }
   },
   methods: {
-      getTours()
+      async getTours()
       {
-          console.log("getTours is not yet implemented");
+        try
+        {
+         console.log("Start getTours")
+         const date = new Date(this.selectedDate);
+         const jsonDate = date.toJSON();
+
+      const request = {
+           ident: this.$store.getters.getIdent,
+           mandatorId: this.$store.getters.getMandatorId,
+           technicianID: {
+"IdentificationId":2,
+      "DataSourceId":2,
+      "DataTypeId":1016,
+      "SourceId": this.selectedTechnichian.sourceId,
+      "MandatorId": this.$store.getters.getMandatorId
+           },
+           date: jsonDate,
+           environment: this.environment
+         };
+         console.log("Request:");
+         console.log(request);
+         const response = await TOService.getTours(request);
+                  const tours = response;
+         let count = tours.length;
+         this.tours = tours;
+         this.msg = count + ' Touren gefunden';
+
+        }
+     catch(error)
+    {
+      console.log(error);
+        this.msg = 'Abruf Touren fehlgeschlagen';
+    }
+     
+
       }
   },
   async created() {
+    
     try
     {
       console.log("Start getTechnicians")
@@ -71,12 +114,14 @@ import TOService from '@/services/TOService.js';
          let count = techs.length;
          this.technichians = techs;
          this.msg = count + ' Monteuere gefunden';
+         
     }
     catch(error)
     {
       console.log(error);
         this.msg = 'Abruf Monteuere fehlgeschlagen';
     }
+    
   }
     }
 

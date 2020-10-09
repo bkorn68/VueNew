@@ -1,0 +1,298 @@
+[
+    {
+        "lastChange": "2020-09-30T12:09:23",
+        "lastChangeByID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1001,
+            "sourceId": 2080,
+            "mandatorId": 1
+        },
+        "technicianID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1016,
+            "sourceId": 10925,
+            "mandatorId": 1
+        },
+        "appointmentID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1006,
+            "sourceId": 12313790,
+            "mandatorId": 1
+        },
+        "retailerID": null,
+        "retailerRequired": false,
+        "realStart": "2020-10-01T08:00:00",
+        "realEnd": "2020-10-01T09:30:00",
+        "timeWindowStart": "2020-10-01T08:00:00",
+        "timeWindowEnd": "2020-10-01T09:30:00",
+        "technicianFixed": true,
+        "isMainTechnician": true,
+        "drivingTimeMinutesBefore": 0.0,
+        "drivingTimeMinutesAfter": 10.0,
+        "duration": 90.0,
+        "requirementType": 0,
+        "qualificationIDs": [
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 99994,
+                "mandatorId": 1
+            }
+        ],
+        "id": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1008,
+            "sourceId": 12313790,
+            "mandatorId": 1
+        },
+        "hashCode": 0,
+        "state": 1,
+        "timestamp": "2020-09-30T12:09:23"
+    },
+    {
+        "lastChange": "2020-09-30T12:09:24",
+        "lastChangeByID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1001,
+            "sourceId": 2080,
+            "mandatorId": 1
+        },
+        "technicianID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1016,
+            "sourceId": 10925,
+            "mandatorId": 1
+        },
+        "appointmentID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1006,
+            "sourceId": 12328023,
+            "mandatorId": 1
+        },
+        "retailerID": null,
+        "retailerRequired": false,
+        "realStart": "2020-10-01T09:40:00",
+        "realEnd": "2020-10-01T10:40:00",
+        "timeWindowStart": "2020-10-01T08:00:00",
+        "timeWindowEnd": "2020-10-01T13:00:00",
+        "technicianFixed": true,
+        "isMainTechnician": true,
+        "drivingTimeMinutesBefore": 10.0,
+        "drivingTimeMinutesAfter": 10.0,
+        "duration": 60.0,
+        "requirementType": 0,
+        "qualificationIDs": [
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 99994,
+                "mandatorId": 1
+            }
+        ],
+        "id": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1008,
+            "sourceId": 12328023,
+            "mandatorId": 1
+        },
+        "hashCode": 0,
+        "state": 1,
+        "timestamp": "2020-09-30T12:09:24"
+    },
+    {
+        "lastChange": "2020-09-30T12:09:23",
+        "lastChangeByID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1001,
+            "sourceId": 2080,
+            "mandatorId": 1
+        },
+        "technicianID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1016,
+            "sourceId": 10925,
+            "mandatorId": 1
+        },
+        "appointmentID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1006,
+            "sourceId": 12314524,
+            "mandatorId": 1
+        },
+        "retailerID": null,
+        "retailerRequired": false,
+        "realStart": "2020-10-01T13:00:00",
+        "realEnd": "2020-10-01T14:30:00",
+        "timeWindowStart": "2020-10-01T13:00:00",
+        "timeWindowEnd": "2020-10-01T15:30:00",
+        "technicianFixed": false,
+        "isMainTechnician": true,
+        "drivingTimeMinutesBefore": 10.0,
+        "drivingTimeMinutesAfter": 27.0,
+        "duration": 90.0,
+        "requirementType": 0,
+        "qualificationIDs": [
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 99994,
+                "mandatorId": 1
+            },
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 116,
+                "mandatorId": 1
+            }
+        ],
+        "id": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1008,
+            "sourceId": 12314524,
+            "mandatorId": 1
+        },
+        "hashCode": 0,
+        "state": 1,
+        "timestamp": "2020-09-30T12:09:23"
+    },
+    {
+        "lastChange": "2020-09-29T10:36:02",
+        "lastChangeByID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1001,
+            "sourceId": 2075,
+            "mandatorId": 1
+        },
+        "technicianID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1016,
+            "sourceId": 10925,
+            "mandatorId": 1
+        },
+        "appointmentID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1006,
+            "sourceId": 12302655,
+            "mandatorId": 1
+        },
+        "retailerID": null,
+        "retailerRequired": false,
+        "realStart": "2020-10-01T14:57:00",
+        "realEnd": "2020-10-01T15:42:00",
+        "timeWindowStart": "2020-10-01T13:00:00",
+        "timeWindowEnd": "2020-10-01T18:00:00",
+        "technicianFixed": false,
+        "isMainTechnician": true,
+        "drivingTimeMinutesBefore": 27.0,
+        "drivingTimeMinutesAfter": 14.0,
+        "duration": 45.0,
+        "requirementType": 0,
+        "qualificationIDs": [
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 117,
+                "mandatorId": 1
+            },
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 99994,
+                "mandatorId": 1
+            }
+        ],
+        "id": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1008,
+            "sourceId": 12302655,
+            "mandatorId": 1
+        },
+        "hashCode": 0,
+        "state": 1,
+        "timestamp": "2020-09-29T10:36:02"
+    },
+    {
+        "lastChange": "2020-09-29T10:36:03",
+        "lastChangeByID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1001,
+            "sourceId": 2075,
+            "mandatorId": 1
+        },
+        "technicianID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1016,
+            "sourceId": 10925,
+            "mandatorId": 1
+        },
+        "appointmentID": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1006,
+            "sourceId": 12320975,
+            "mandatorId": 1
+        },
+        "retailerID": null,
+        "retailerRequired": false,
+        "realStart": "2020-10-01T15:56:00",
+        "realEnd": "2020-10-01T16:56:00",
+        "timeWindowStart": "2020-10-01T15:30:00",
+        "timeWindowEnd": "2020-10-01T18:00:00",
+        "technicianFixed": false,
+        "isMainTechnician": true,
+        "drivingTimeMinutesBefore": 14.0,
+        "drivingTimeMinutesAfter": 0.0,
+        "duration": 60.0,
+        "requirementType": 0,
+        "qualificationIDs": [
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 99994,
+                "mandatorId": 1
+            },
+            {
+                "identificationId": 2,
+                "dataSourceId": 2,
+                "dataTypeId": 1015,
+                "sourceId": 116,
+                "mandatorId": 1
+            }
+        ],
+        "id": {
+            "identificationId": 2,
+            "dataSourceId": 2,
+            "dataTypeId": 1008,
+            "sourceId": 12320975,
+            "mandatorId": 1
+        },
+        "hashCode": 0,
+        "state": 1,
+        "timestamp": "2020-09-29T10:36:03"
+    }
+]
