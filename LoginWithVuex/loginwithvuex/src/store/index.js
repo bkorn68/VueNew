@@ -10,7 +10,8 @@ const getDefaultState = () => {
   return {
     ident: '',
     token: '',
-    mandatorId: 1
+    mandatorId: 1,
+    isLoggedIn: false
 
   };
 };
@@ -21,7 +22,7 @@ export default new Vuex.Store({
   state: getDefaultState(),
   getters: {
     isLoggedIn: state => {
-      return (state.ident);
+      return state.isLoggedIn;
     },
     getIdent: state => {
       return state.ident;
@@ -31,6 +32,11 @@ export default new Vuex.Store({
     }
   },
   mutations: {
+    SET_ISLOGGEDIN: (state, isLoggedIn) => {
+      state.isLoggedIn = isLoggedIn;
+      console.log("isLoggedIn stored");
+
+    },
     SET_IDENT: (state, ident) => {
       state.ident = ident;
       console.log("ident stored");
@@ -51,6 +57,7 @@ export default new Vuex.Store({
   actions: {
     login: ({ commit, dispatch }, { ident, token, mandatorId }) => {
       
+      commit('SET_ISLOGGEDIN', (ident));
       commit('SET_IDENT', ident);
       commit('SET_TOKEN', token);
       commit('SET_MANDATORID', mandatorId);

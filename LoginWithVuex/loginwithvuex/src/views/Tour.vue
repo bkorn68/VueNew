@@ -5,7 +5,7 @@
     <label for="uname"><b>Monteur</b></label>
     <select v-model="selectedSourceID">
   <option v-for="technichian in technichians" v-bind:value="technichian.SourceID">
-    {{technichian.Name + '[' + technichian.SourceID + ']' }}
+    {{technichian.name + '[' + technichian.sourceId + ']' }}
   </option>
 </select>
 
@@ -16,30 +16,34 @@
     <button type="submit" @click="getTours">Touren</button>
     
   </div>
+  <p v-if="msg">{{ msg }}</p>
     
   </div>
 </template>
 
 <script>
+import TOService from '@/services/TOService.js';
     export default {
     data() {
     return {
       technichians: [
           {
-              "Name": "Bernhard Korn",
-              "SourceID": 12345
+              "name": "Bernhard Korn",
+              "sourceId": 12345
           },
           {
-              "Name": "Hendrik Kokulinsky",
-              "SourceID": 23456
+              "name": "Hendrik Kokulinsky",
+              "sourceId": 23456
           },
           {
-              "Name": "Wolfgang Lorenz",
-              "SourceID": 34567
+              "name": "Wolfgang Lorenz",
+              "sourceId": 34567
           }
       ],
       selectedSourceID: '12345',
-      selectedDate: '2017-07-04'
+      selectedDate: '2017-07-04',
+      environment: 1,
+      msg: ''
       
     }
   },
@@ -49,10 +53,35 @@
           console.log("getTours is not yet implemented");
       }
   },
-  created: function () {
-    this.selectedDate = new Date().format('YYYY-MM-DD');
+  async created() {
+    try
+    {
+      console.log("Start getTechnicians")
+
+      const request = {
+           ident: this.$store.getters.getIdent,
+           mandatorId: this.$store.getters.getMandatorId,
+           skip: 0,
+           take: 100,
+           environment: this.environment
+         };
+         console.log("Request:");
+         console.log(request);
+         
+         const response = await TOService.getTechnicians(request);
+         const techs = response;
+         let count = techs.length;
+         this.technichians = techs;
+         this.msg = count + ' Monteuere gefunden';
+    }
+    catch(error)
+    {
+      console.log(error);
+        this.msg = 'Abruf Monteuere fehlgeschlagen';
+    }
   }
     }
+
 </script>
 
 <style scoped>

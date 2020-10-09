@@ -1,13 +1,14 @@
-// src/services/AuthService.js
 
 import axios from 'axios';
 
 const url = 'http://localhost:56452/api/';
+const loginUrl = url + 'Login/';
+
 
 export default {
   login(credentials) {
     return axios
-      .post(url + 'Login/', credentials)
+      .post(loginUrl, credentials)
       .then(response => response.data);
   }
 }
