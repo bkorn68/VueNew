@@ -16,15 +16,19 @@
 
 
     <button type="submit" @click="getTours">Touren</button>
+    <p v-if="msg">{{ msg }}</p>
+    <TourList v-bind:tourList="tourList" v-if="this.toursfound" />
     
   </div>
-  <p v-if="msg">{{ msg }}</p>
+  
     
   </div>
 </template>
 
 <script>
 import TOService from '@/services/TOService.js';
+import TourList from "../components/TourList"
+
     export default {
     data() {
     return {
@@ -37,15 +41,20 @@ import TOService from '@/services/TOService.js';
       selectedDate: '2020-10-01',
       environment: 1,
       msg: 'Lade Monteure...',
-      tours: []
+      tourList: [],
+      toursfound: false
       
     }
+  },
+  components: {
+    TourList
   },
   methods: {
       async getTours()
       {
         try
         {
+         this.toursfound = false;
          console.log("Start getTours")
          this.msg = 'ermittel Touren';
          const date = new Date(this.selectedDate);
@@ -69,8 +78,12 @@ import TOService from '@/services/TOService.js';
          const response = await TOService.getTours(request);
                   const tours = response;
          let count = tours.length;
-         this.tours = tours;
+         if (count > 0)
+         {
+         this.tourList = tours;
          this.msg = count + ' Touren gefunden';
+         this.toursfound = true;
+         }
 
         }
      catch(error)
