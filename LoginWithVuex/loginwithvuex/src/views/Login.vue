@@ -11,7 +11,7 @@
     <input type="password" placeholder="Kennwort eingeben" name="password" v-model="password" required>
 
     <button type="submit" @click="login">Login</button>
-    <GridLoader :loading="this.Loading" size="15"  ></GridLoader>
+    
     
   </div>
     <p v-if="msg">{{ msg }}</p>
@@ -19,7 +19,7 @@
 </template>
 <script>
 import AuthService from '@/services/AuthService.js';
-import { GridLoader } from '@saeris/vue-spinners'
+
 
 export default {
   data() {
@@ -32,9 +32,7 @@ export default {
       Loading: false
     };
   },
-  components: {
-    GridLoader
-  },
+
   methods: {
     async login() {
       try {
