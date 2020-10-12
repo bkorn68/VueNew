@@ -1,0 +1,1 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><HashLogin xmlns="http://tempuri.org/"><pwtoken>CA8D4F9987F3A71EEEA140122D33F762</pwtoken><loginname>b.korn</loginname><passwordhash>66bfde2c10cd7277bce707362d4fd379</passwordhash></HashLogin></s:Body></s:Envelope>
